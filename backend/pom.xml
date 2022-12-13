@@ -41,6 +41,12 @@
 			<artifactId>de.flapdoodle.embed.mongo.spring30x</artifactId>
 			<version>4.3.2</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-mongodb</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
