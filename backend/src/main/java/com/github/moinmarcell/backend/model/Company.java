@@ -14,7 +14,7 @@ public record Company(
     String email,
     String phoneNumber,
     List<User> customers,
-    List<Product> product,
+    List<Product> products,
     Address address
 ) {
 }
