@@ -1,4 +1,5 @@
 import {Company} from "./model/Company";
+const short = require('short-uuid');
 
 type CompanyCardProps = {
     company: Company
@@ -11,7 +12,7 @@ export default function CompanyCard(props: CompanyCardProps){
             <ul>
                 {props.company.employees.map(employee => {
                     return(
-                        <li>{employee.firstname}</li>
+                        <li key={short.generate()}>{employee.firstname}</li>
                     )
                 })}
             </ul>
@@ -20,14 +21,14 @@ export default function CompanyCard(props: CompanyCardProps){
             <ul>
                 {props.company.customers.map(customer => {
                     return(
-                        <li>{customer.firstname}</li>
+                        <li key={short.generate()}>{customer.firstname}</li>
                     )
                 })}
             </ul>
             <ul>
                 {props.company.products.map(product => {
                     return(
-                        <li>{product.name}</li>
+                        <li key={short.generate()}>{product.name}</li>
                     )
                 })}
             </ul>
