@@ -1,8 +1,8 @@
-package service;
+package com.github.moinmarcell.backend.service;
 
-import model.Company;
+import com.github.moinmarcell.backend.model.Company;
 import org.springframework.stereotype.Service;
-import repository.CompanyRepository;
+import com.github.moinmarcell.backend.repository.CompanyRepository;
 
 import java.util.List;
 
