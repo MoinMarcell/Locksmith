@@ -1,5 +1,6 @@
 package service;
 
+import com.github.moinmarcell.backend.service.IdService;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;

@@ -1,10 +1,10 @@
-package controller;
+package com.github.moinmarcell.backend.controller;
 
-import model.Company;
+import com.github.moinmarcell.backend.model.Company;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import service.CompanyService;
+import com.github.moinmarcell.backend.service.CompanyService;
 
 import java.util.List;
 

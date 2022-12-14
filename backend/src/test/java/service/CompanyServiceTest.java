@@ -1,8 +1,9 @@
 package service;
 
-import model.Company;
+import com.github.moinmarcell.backend.model.Company;
+import com.github.moinmarcell.backend.service.CompanyService;
 import org.junit.jupiter.api.Test;
-import repository.CompanyRepository;
+import com.github.moinmarcell.backend.repository.CompanyRepository;
 
 import java.util.Collections;
 import java.util.List;

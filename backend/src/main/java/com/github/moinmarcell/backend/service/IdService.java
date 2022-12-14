@@ -1,4 +1,4 @@
-package service;
+package com.github.moinmarcell.backend.service;
 
 import org.springframework.stereotype.Service;
 
