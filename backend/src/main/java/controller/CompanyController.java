@@ -9,7 +9,7 @@ import service.CompanyService;
 import java.util.List;
 
 @RestController
-@RequestMapping("companies")
+@RequestMapping("api/companies")
 public class CompanyController {
 
     CompanyService companyService;
